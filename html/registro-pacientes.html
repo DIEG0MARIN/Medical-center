@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro pacientes</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Medical center backend</h1>
+    </header>
+    <main>
+        <h2>Registro pacientes</h2>
+        <form>
+            <label for ="nombres">Nombres:</label>
+            <input type="text"  id="nombres" name="nombres">
+            <label for ="apellidos">Apellidos:</label>
+            <input type="text"  id="apellidos" name="apellidos">
+            <label for="cedula">Número de cedula:</label>
+            <input type="number" id="cedula" name="cedula" required>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad" required>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+
+            <label for="especialidad requerida" >Especialidad requerida: </label>
+
+            <select name="especialidad requerida" id="especialidad requerida" required>
+
+                <option>-------Seleccione una opción--------</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="cardiologia">Cardiologia</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="dermatologia">Dermatologia</option>
+                <option value="rehabilitacion fisica">Rehabilitación física</option>
+                <option value="psicologia">Psicología</option>
+                <option value="odontologia">Odontología</option>
+                <option value="radiologia">Radiología</option>
+
+            </select>
+        </form>
+    </main>
+    <footer>  
+        <p class="copyright"> &copy Derechos reservados Diego Fernando Marín 2024</p>
+    </footer>
 </body>
 </html>
