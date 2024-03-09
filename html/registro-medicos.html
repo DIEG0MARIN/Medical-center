@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro médicos</title>
+</head>
+<body>
+    <header>
+        <h1>Medical center backend</h1>
+    </header>
+    <main>
+        <h2>Registro médicos</h2>
+        <form>
+            <label for ="nombres">Nombres</label>
+            <input type="text"  id="nombres" name="nombres">
+            <label for ="apellidos">Apellidos</label>
+            <input type="text"  id="apellidos" name="apellidos">
+            <label for="cedula">Número de cedula</label>
+            <input type="number" id="cedula" name="cedula" required>
+            <label for="consultorio">Número de consultorio</label>
+            <input type="number" id="consultorio" name="consultorio" required>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required >
+
+            <label for="especialidad" id="especialidad">Especialidad</label>
+
+            <select name="especialidad" id="especialidad">
+
+                <option value="Medicina general">Medicina general</option>
+                <option value="cardiologia">Cardiologia</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="dermatologia">Dermatologia</option>
+                <option value="rehabilitacion fisica">Rehabilitación física</option>
+                <option value="psicologia">Psicología</option>
+                <option value="odontologia">Odontología</option>
+                <option value="radiologia">Radiología</option>
+
+            </select>
+
+
+        </form>
+    </main>
+</body>
+</html>
