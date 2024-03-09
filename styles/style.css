@@ -5,6 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    background-image:url('https://lh5.googleusercontent.com/proxy/lcYA4Fs2oew6Z9tcEMrhDscm0E0t7F4C66yWQ8jf7bgIgOJL2360Sxhpd0RqF9jicrUGc7iYBMwuy5_GxjVRVWLzkxaMuXrc7eLw1UWIQdPm9VtRIjSs4GYSDEyvJwsNxYOddiP_Hfz8t76U') ;
 }
 
 header, footer {
@@ -32,7 +33,8 @@ h2 {
 main {
     width: 100%;
     margin: auto;
-}
+    background-size: cover;
+}   
 
 li{
     list-style: none;
